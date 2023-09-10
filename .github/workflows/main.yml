@@ -113,7 +113,7 @@ jobs:
         with:
           context: ./frontend/
           push: true
-          tags: username/taski_frontend:latest
+          tags: mixalap/taski_frontend:latest
 
 
   build_gateway_and_push_to_docker_hub:
@@ -135,4 +135,4 @@ jobs:
           context: ./gateway/
           push: true
           # Тут вместо username должен быть ваш логин на Docker Hub
-          tags: username/taski_gateway:latest
+          tags: mixalap/taski_gateway:latest
